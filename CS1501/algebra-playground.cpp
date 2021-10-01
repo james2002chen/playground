@@ -96,5 +96,8 @@ int main(){
     //positive error!
     cout << setprecision(20)<< 3*0.6 <<endl;
     cout << setprecision(20)<< 1.8 <<endl;
+    cout<<endl;
+
+    cout<<(char)(('A'-65+32)%64+65);
     return 0;
 }
